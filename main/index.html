@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="flex items-center justify-center min-h-screen">
+        <div class="card bg-white text-primary-content w-96 ">
+            <div class="card-body">
+            <h2 class="card-title">Colour Flipper</h2>
+            <p>Choose the colour of the background</p>
+            <div class="card-actions">
+                <button class="btn btn-error" id="Red" onclick="setColour('Red')">Red</button>
+                <button class="btn btn-success" id="Green" onclick="setColour('Green')">Green</button>
+                <button class="btn btn-info" id="Blue" onclick="setColour('Blue')">Blue</button>
+                <button class="btn" id="Random" onclick="randomColour()">Random</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
